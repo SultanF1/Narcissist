@@ -166,7 +166,7 @@ def display_answer(ans):
 def get_answers():
     
     lines = []
-    file = open("/Volumes/XTRM-Q/Narcissist/quest.txt","r")
+    file = open("./quest.txt","r")
     lines = file.readlines()
     answers = []
     st.session_state.age = st.slider("Please select your age:",14,100)
