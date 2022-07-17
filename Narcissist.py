@@ -68,7 +68,7 @@ avg_score = (npi_score).mean()
 male_score = (npi_score[data.iloc[:,42]==1].mean())
 female_score = (npi_score[data.iloc[:,42]==2].mean())
 
-d = pd.read_csv('/Volumes/XTRM-Q/Narcissist/data.csv')
+d = pd.read_csv('./data.csv')
 col_names = ['score', 'influencing', 'modesty', 'easy_to_bait', 
 'compliments', 'world_ruler', 'avoid_responsibility',
  'self_attention', 'success', 'special', 'leader',
