@@ -189,8 +189,8 @@ def get_answers():
     answers.append(st.session_state.age)     
 
     
-    
-    aa = lr.predict([answers])
+    tmp = np.array(answers, dtype=float)
+    aa = lr.predict([tmp])
     
     
     display_answer(aa)
