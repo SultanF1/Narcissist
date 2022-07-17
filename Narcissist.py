@@ -44,7 +44,7 @@ if 'gender' not in st.session_state:
 
 
 
-data = pd.read_csv('/Volumes/XTRM-Q/Narcissist/data.csv')
+data = pd.read_csv('./data.csv')
 
 
 data = data[data['age']<100]
